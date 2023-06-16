@@ -6,7 +6,7 @@ it also works for more lazy programmers who don't feel like writing the structur
 
 package org.firstinspires.ftc.teamcode;
 
-//Importing all the classes and or objects from the FTC APK
+//Importing all the classes and or objects from the FTC SPK
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
