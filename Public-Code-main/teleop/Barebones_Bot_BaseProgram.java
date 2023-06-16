@@ -24,17 +24,7 @@ public class Barebones_Bot_BaseProgram extends LinearOpMode {
         waitForStart();
         //Run phase
         while(opModeIsActive()){
-            //Both motors controlled together
-                //Forward and backward movement
-                leftMotor.setPower(-gamepad1.right_stick_y);
-                rightMotor.setPower(-gamepad1.right_stick_y);
-                //Turning movement
-                leftMotor.setPower(-gamepad1.right_stick_x);
-                rightMotor.setPower(gamepad1.right_stick_x);
-
-            //Seperate motor controls (currently commented out)
-//            leftMotor.setPower(-gamepad1.left_stick_y);
-//            rightMotor.setPower(-gamepad1.right_stick_y);
+            
         }
     }
 }
