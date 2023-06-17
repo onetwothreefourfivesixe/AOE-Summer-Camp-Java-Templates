@@ -10,7 +10,7 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-//This tells the program that this file is a teleop type, with its name being "Default Name". @TeleOp can be changed to @Autonomous to designate the file as an autonomus program.
+//This tells the program that this file is a TeleOp type, with its name being "Default Name". @TeleOp can be changed to @Autonomous to designate the file as an autonomus program.
 @TeleOp(name="Default Name")
 
 public class Labelled_AndroidStudio_Program extends LinearOpMode {
