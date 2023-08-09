@@ -48,9 +48,9 @@ public class Mecanum_Bot_BaseProgram extends LinearOpMode {
             the third and final "+ gamepad1.right_stick_x" represents the turning controls. */
 
             topLeftMotor.setPower(-gamepad1.right_stick_y + gamepad1.left_stick_x - gamepad1.right_stick_x);
-            bottomLeftMotor.setPower(-gamepad1.right_stick_y - gamepad1.left_stick_x - gamepad1.right_stick_x);
-            topRightMotor.setPower(-gamepad1.right_stick_y - gamepad1.left_stick_x + gamepad1.right_stick_x) ;
-            bottomLeftMotor.setPower(-gamepad1.right_stick_y + gamepad1.left_stick_x + gamepad1.right_stick_x);
+            bottomLeftMotor.setPower(-gamepad1.right_stick_y - gamepad1.left_stick_x + gamepad1.right_stick_x);
+            topRightMotor.setPower(-gamepad1.right_stick_y - gamepad1.left_stick_x - gamepad1.right_stick_x) ;
+            bottomRightMotor.setPower(-gamepad1.right_stick_y + gamepad1.left_stick_x + gamepad1.right_stick_x);
 
             //Add your own code!
         }
